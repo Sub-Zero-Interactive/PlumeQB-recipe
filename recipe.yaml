@@ -499,7 +499,7 @@ tasks:
 
   - action: connect_database
   - action: query_database
-    file: ./tmp/qbcore/qbcore.sql
+    file: ./tmp/qbcore/plume.sql
 
   - action: write_file
     file: ./resources/[standalone]/ghmattimysql/config.json

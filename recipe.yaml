@@ -479,10 +479,6 @@ tasks:
     src: ./tmp/qbcore/server.cfg
     dest: ./server.cfg
 
-  - action: move_path
-    src: ./tmp/qbcore/myLogo.png
-    dest: ./myLogo.png
-
 
     # move to tmp folder
   - action: move_path
